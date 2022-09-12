@@ -1,0 +1,72 @@
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+
+    .card__paralax01 {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    .card__paralax01__img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .card__paralax01__img img {
+        max-height: 90%;
+    }
+
+    .space__info__right--img {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        opacity: 0;
+    }
+
+    .space__info--left,
+    .space__info {
+        grid-column: 1/3;
+        z-index: 1;
+        font-weight: bold;
+    }
+
+    .card__paralax02 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        z-index: 1;
+    }
+
+    .card__paralax02:nth-child(2) {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        z-index: 1;
+        margin-top: 24px;
+    }
+
+    .space__info__left--img {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        opacity: 0;
+    }
+
+    .card__paralax03 {
+        z-index: 1;
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+
+    .card__paralax04 {
+        z-index: 1;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .card__paralax04:nth-child(2) {
+        z-index: 1;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        margin-top: 24px;
+    }
+
+
+}

@@ -1,0 +1,29 @@
+section {
+    width: 100vw;
+    height: 300px;
+    padding: 24px;
+}
+
+.paralax {
+    background-image: url(../imagens/BackGround__Space.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.paralax:nth-child(1) {
+    height: 100vh;
+}
+
+.paralax:nth-child(3) {
+    height: 100vh;
+}
+
+.paralax:nth-child(5) {
+    height: 100vh;
+}
+
+.paralax:nth-child(7) {
+    height: 100vh;
+}
